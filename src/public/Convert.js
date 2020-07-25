@@ -91,7 +91,7 @@ export default class Convert extends Component {
                 </select>
 
                 <textarea as="textarea" rows="5" className="box" style={{ padding: 5, fontSize: 18, marginTop: '5%' }} name="textInput" onChange={this.handleInputChange} value={textInput} />
-                <Button variant="success" type="submit" style={{ marginTop: '3%', marginBottom: '3%' }}>ยืนยันข้อมูล</Button>
+                <Button variant="success" type="submit" style={{ marginTop: '3%', marginBottom: '3%' }}>แปลภาษา</Button>
               </Col>
               <Col xs={6}>
                 {
